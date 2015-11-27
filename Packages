@@ -1,0 +1,209 @@
+Package: com.chewmieser.appbutton
+Version: 1.1.1.2-1
+Architecture: iphoneos-arm
+Maintainer: Steven Rolfe <steve@rolfe.land>
+Installed-Size: 1456
+Depends: mobilesubstrate,preferenceloader,applist
+Filename: .//com.chewmieser.appbutton_1.1.1.2-1_iphoneos-arm.deb
+Size: 533486
+MD5sum: f2ba4058134a6c53321fd41b09a30b23
+SHA1: ed864e4ddb8e0e53ae9d58ae1a9ab5f3dc7131ab
+SHA256: 393566822c6c95fde8242e262b3a744f83cca9dfd9c9b9ff002f4bc2f123e79a
+Section: Tweaks
+Description: Multitasking at your fingertips
+Author: Steven Rolfe <steve@rolfe.land>
+Depiction: http://fierp.github.io/depictions/com.chewmieser.appbutton/AppButton.html
+Name: AppButton
+
+Package: com.edbdsoftware.EDBDGIFViewer
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.EDBDGIFViewer_0.0.1_iphoneos-arm.deb
+Size: 8352
+MD5sum: e3dcb1ca4e28e0bd728d3235062692e1
+SHA1: 90e364287d782a08c06ce80d9521dc8887ae8e27
+SHA256: 325d6d078101a4495279e3ce54c6733a0ddac29295c15f82163ca4d3de16126a
+Section: Tweaks
+Description: Enables animated GIF viewing in the photos app.
+Author: David Glinski
+Name: EDBDGIFViewer
+
+Package: com.edbdsoftware.EDBDGIFViewer9
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.EDBDGIFViewer9_0.0.1_iphoneos-arm.deb
+Size: 8596
+MD5sum: 008b412bbe8c6052addf3b11e1b1e30a
+SHA1: 36ec602879118a471154fa29320109a89bcb07cb
+SHA256: 61bc19eeaca33c56392583d3de911a02c0428a7c56bf3c50feb0cdcaed745277
+Section: Tweaks
+Description: Enables animated GIF viewing in the photos app in iOS 9
+Author: David Glinski
+Name: EDBDGIFViewer9
+
+Package: com.edbdsoftware.GoogleTranslateURLHandler
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.GoogleTranslateURLHandler_0.0.3_iphoneos-arm.deb
+Size: 10642
+MD5sum: c1393a04a7f99df8359712f05a0fc936
+SHA1: d6706b89c39bcae664a397f55f4b00b92cc4a5d8
+SHA256: 31203d9bc338cfb31ec7828a77ce2ffbc501fb6da5c0847cef94b5ea2c01dbbc
+Section: Tweaks
+Description: Enables Google Translate app to open with a translation via: googleTranslate://sl=[2 char lang code]&tl=[2 char lang code]&phrase=[URL encoded phrase] i.e.: googleTranslate://sl=en&tl=sv&phrase=Hello
+Author: David Glinski
+Name: GoogleTranslateURLHandler
+
+Package: com.edbdsoftware.HideSlideToUnlockAndGrabbers
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.HideSlideToUnlockAndGrabbers_0.0.1_iphoneos-arm.deb
+Size: 6970
+MD5sum: 7a83a9ba6be68817bcccad058dc85a06
+SHA1: dd24b71b8a5f944b27438ea68faa7cc6cb186228
+SHA256: 647b09ba3c14ec88e28fb8dddc1c29a354fca0df389b317863df205f10bba0df
+Section: Tweaks
+Description: Hides Slide to Unlock, notification center, control center, and camera grabbers on the lockscreen. They are still functional, just not visible.
+Author: David Glinski
+Name: HideSlideToUnlockAndGrabbers
+
+Package: com.edbdsoftware.LeftyMail
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.LeftyMail_0.0.3_iphoneos-arm.deb
+Size: 19808
+MD5sum: 6f082cc650eb9ffb7e27686ac73e0393
+SHA1: a9f4a8f7a22de375d1610e31e9cf8e706e365a7a
+SHA256: d85bb5b7a96fd31129af4faf4d4e359a2496affa789a72720f0d7a2191e98a80
+Section: Tweaks
+Description: Left handed up/down arrows for Mail.
+Author: David Glinski
+Name: LeftyMail
+
+Package: com.edbdsoftware.LeftyMail9
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.LeftyMail9_0.0.3_iphoneos-arm.deb
+Size: 19704
+MD5sum: 92d313e438da56f5f562ea8e5481261c
+SHA1: df7452b281e8ab3e63db4fef4f092dbe8bc360dc
+SHA256: 3dfd82e6199281a2aa36801d29a18b8be833ef38700467e0987a56e0d8563b1a
+Section: Tweaks
+Description: Left handed up/down arrows for Mail on iOS 9
+Author: David Glinski
+Name: LeftyMail9
+
+Package: com.edbdsoftware.NoAddToHomescreenRedirect
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.NoAddToHomescreenRedirect_0.0.1_iphoneos-arm.deb
+Size: 6720
+MD5sum: 53760f5268c6d4994dbadbf05447679b
+SHA1: 2f0c7633e2af78f251df1be8023c41abb4c757c1
+SHA256: 1dc8e34a34d79f6de9a87a268e3edbc3eec9bd969e3a5ffa05d8ef0529fa02bc
+Section: Tweaks
+Description: Prevent homescreen redirect when adding bookmark to homescreen in Safari
+Author: David Glinski
+Name: NoAddToHomescreenRedirect
+
+Package: com.edbdsoftware.NoAutoFullscreenMaps
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.NoAutoFullscreenMaps_0.0.1_iphoneos-arm.deb
+Size: 5548
+MD5sum: 3e2896dedc13386a2176971239adc158
+SHA1: 9ee49214d02c173c6334820cfa464904659db32c
+SHA256: 922bf1b3abe97c032dc89224acae28263c6363560433bc39b53e71f4c61879a5
+Section: Tweaks
+Description: Disables automatically switching back to fullscreen mode in Maps when navigating
+Author: David Glinski
+Name: NoAutoFullscreenMaps
+
+Package: com.edbdsoftware.PhotosTapNav
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.PhotosTapNav_0.0.1_iphoneos-arm.deb
+Size: 9190
+MD5sum: 1819a39f098b2717236d827894c41130
+SHA1: db75f8df58164cc812bfb093c94c3fdcc9733fbf
+SHA256: f6cd5caad6ecdb0284593ec20e6ef82504215f5536ede8c75b9097db26c39396
+Section: Tweaks
+Description: Navigate Photos by tapping the left and right side side of the screen.
+Author: David Glinski
+Name: PhotosTapNav
+
+Package: com.edbdsoftware.PhotosZoom
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.PhotosZoom_0.0.1_iphoneos-arm.deb
+Size: 3360
+MD5sum: 002c668691af792d61ce1631eae33748
+SHA1: 3fc69fd3c26dd634851ef8e034f7e80c857f3aae
+SHA256: 02a7b15420ec29ffa9d3d64b59a1a5dcc6aea9e4e253dce084d54fac77de4b4f
+Section: Tweaks
+Description: Overrides Photos app's maximum zoom scale to 1000
+Author: David Glinski
+Name: PhotosZoom
+
+Package: com.edbdsoftware.VideoPlayerRotatable
+Version: 0.0.8
+Architecture: iphoneos-arm
+Maintainer: David Glinski <dglinski@icloud.com>
+Installed-Size: 428
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: .//com.edbdsoftware.VideoPlayerRotatable_0.0.8_iphoneos-arm.deb
+Size: 27686
+MD5sum: b9d3f9961d9ab5d69b0284944068358a
+SHA1: 26c1ca86450c17ac3ed9a34cb5a05b9a8953f16c
+SHA256: 6b4904217a56e2d8b112ab988fd95d28104d612206d8589e400a5c48ed43331c
+Section: Tweaks
+Description: Disables rotation lock when the default video player starts playing and restores lock when it stops. You will need to quit and re-launch any app you want to use this in. Please let send me a message on reddit /u/fierp if you find any issues. New in 0.0.8: A little code cleaning, added preferences: enabled, blacklist apps, bonus: switch to disable showing media controls on volume change
+Author: David Glinski <dglinski@icloud.com>
+Name: VideoPlayerRotatable
+
+Package: com.edbdsoftware.bursttogif
+Version: 0.0.3
+Architecture: iphoneos-arm
+Maintainer: David Glinski
+Installed-Size: 408
+Depends: mobilesubstrate
+Filename: .//com.edbdsoftware.bursttogif_0.0.3_iphoneos-arm.deb
+Size: 123500
+MD5sum: ae6fda70728d3d754a4b621955cb5172
+SHA1: 36b678851e4bd07b08d8731eec7eea14f7851585
+SHA256: 2eae702aa7fadb37829c48e637d12859dec35d5752f516add3ee1402e775aea3
+Section: Tweaks
+Description: Allows creation of a GIF from a burst photo set.
+Author: David Glinski
+Name: BurstToGIF
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://apt.steverolfe.com/depiction/appbutton.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AppButton</title>
+	<link rel="stylesheet" href="./AppButton_files/bootstrap.min.css">
+<style type="text/css"></style><style>/** This is the focused element */
+._vivaldi-spatnav-is-focused:focus {
+  outline-width: 0 !important;
+}
+
+@-webkit-keyframes SpatfadeInOut {
+  0% { transform: scale(1) }
+  100% { transform: scale(1.1) }
+}
+
+/** This is the focuus indicator */
+._vivaldi-spatnav-focus-indicator {
+  /* XXX gorm 150305: Temporary added back z-index hack, to at least
+make it always visible, instead of sometimes not visible. Need to look
+into a permanent solution though. */
+  position: absolute;
+  z-index: 9999999999;
+  top: 0;
+  left: 0;
+	box-shadow: 0 0 10px 4px rgba(255,122,0,0.70),
+              0 0 0 2px #FF7A00;
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+._vivaldi-spatnav-first,
+._vivaldi-spatnav-middle,
+._vivaldi-spatnav-last {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+._vivaldi-spatnav-first:before,
+._vivaldi-spatnav-middle:before,
+._vivaldi-spatnav-last:before {
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  border: 0 solid #FF7A00;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+}
+
+._vivaldi-spatnav-first:before {
+  border-radius: 3px 0 0 3px;
+  border-width: 2px 0 2px 2px;
+}
+._vivaldi-spatnav-middle:before {
+  border-width: 2px 0;
+}
+._vivaldi-spatnav-last:before {
+  border-radius: 0 3px 3px 0;
+  border-width: 2px 2px 2px 0;
+}
+
+.vivaldi-spatnav-debug {
+  outline: 1px dotted deeppink!important;
+}
+</style></head>
+<body style="background-color: transparent;">
+	<div class="container">
+		
+		<br>
+
+		<div class="panel panel-success">
+                        <div class="panel-heading">
+				Beta - iOS9
+                        </div>
+                </div>
+		
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">AppButton</h3>
+			</div>
+			<div class="panel-body">
+				AppButton puts your app switcher (and now favorited apps) at the touch of a button, acessible from anywhere!<br><br>
+				Swiping downwards opens your multitasking tray. Swiping upwards opens your favorites tray.<br><br>
+				Drag the button to your desired app and release! Move the button by holding until it turns while and drag to your desired location.<br><br>
+<iframe src="./AppButton_files/ElectricAmazingEider.html" frameborder="0" scrolling="no" width="252" height="450" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);"></iframe>
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				Changelog
+			</div>
+			<div class="panel-body">
+				<h3>1.1.1.2 <small>Added initial iOS 9 compatibility. Tap/Double Tap functionality does not work properly on 6S devices</small></h3>
+				<h4>1.1.1.1 <small>Fix: Implemented better fix then 1.1.1</small></h3>
+				<h4>1.1.1 <small>Fix: Screenshot hiding no longer prevents Assistive Touch from hiding</small></h4>
+				<h4>1.1 <small>AppButton now hides itself during screenshots!</small></h4>
+				<h4>0.9.9 <small>Bump up expiration date. Visual improvements. Final release before BigBoss.</small></h4>
+				<h4>0.9 <small>Whitelisted app &amp; toggle mode for Activator. Numerous fixes and enhancements.</small></h4>
+				<h4>0.8.1 <small>Option to disable kill apps / highlight app. More performance improvements, bug fixes. Launched icon finally shows in the proper orientation.</small></h4>
+				<h4>0.8 <small>Kill all support (hold at the end of the tray for a couple seconds). Probably fixed bug where it sometimes appeared on the lockscreen. Numerous tweaks and performance improvements.</small></h4>
+				<h4>0.7.5 <small>Added activator events for button tap and double tap. Integrated in behavior pane.</small></h4>
+				<h4>0.7.2 <small>Better activator support. Activator settings in preference pane now.</small></h4>
+				<h4>0.7 <small>Preliminary activator support. Also option to disable scrolling.</small></h4>
+				<h4>0.6 <small>Scrolling added. Fixed tray not always closing (hopefully).</small></h4>
+				<h4>0.5.1 <small>More button tap options, slight tap responsiveness adjustments, slight tweaks</small></h4>
+				<h4>0.5 <small>Button press now = Last app (toggle in settings for home button). Many tweaks to the settings, including a new quick intro-type screen...</small></h4>
+				<h4>0.4.2 <small>Added double-tap home button support</small></h4>
+				<h4>0.4.1 <small>Fixed issue with favoriting the settings app and potentially crashes when going into the settings app (rare)...</small></h4>
+				<h4>0.4 <small>More customization, home button support, landscape keyboard bug fix, easier button moving, numerous tweaks</small></h4>
+				<h4>0.3.6 <small>Hotfix: tray opening issues</small></h4>
+				<h4>0.3.5 <small>Added support for: active alpha, sausage fingers and resetting the button if it goes missing randomly... Tweaked tray loading to make it load less often (glitch). Fixed preference handling glitches. Numerous tweaks</small></h4>
+				<h4>0.3 <small>Gettin' blurry wid it. Also various tweaks and probably a fix or two...</small></h4>
+				<h4>0.2 <small>Favorites reordering and fixes to favorites tray (not appearing)</small></h4>
+				<h4>0.1.1 <small>Refreshed and reorganized preferences</small></h4>
+				<h4>0.1.0 <small>Favorite hotfix: When in your second favorite app, the first one failed to launch if selected</small></h4>
+				<h4>0.1 <small>Resting opacity and swap controls unlocked. Various fixes, especially with other orientations. Initial beta.</small></h4>
+				<h4>0.0.9 <small><b>EXPERIMENTAL APEX FIX</b> Apex works properly with it now, but I need people to test this new method. Make sure there's no crashing...<br> More text in settings, bugfixes, getting ready for some customization...</small></h4>
+				<h4>0.0.8 <small>Remembers position now. Added dock-to-edge option. Bugfixes...</small></h4>
+				<h4>0.0.7 <small>Selectable drag locations for multitasking vs favorites</small></h4>
+				<h4>0.0.6 <small>Added favorite support - Swipe up to access (check settings)</small></h4>
+				<h4>0.0.5 <small>More small tweaks, some bug fixes, removed current app as an icon</small></h4>
+				<h4>0.0.4 <small>Numerous tweaks, start of preference bundle</small></h4>
+				<h4>0.0.3.1 <small>Brought back unintentional theme support for icons</small></h4>
+				<h4>0.0.3 <small>Tray opening and button moving gestures swapped.</small></h4>
+				<h4>0.0.2 <small>Supports every direction. Some tweaks.</small></h4>
+				<h4>0.0.1 <small>Initial public release - HEAVILY UNTESTED</small></h4>
+			</div>
+		</div>
+		
+	</div>
+
+
+</body></html>
