@@ -1,0 +1,12 @@
+<changelog>
+	<changes>
+		<version>0.0.13</version>
+		<change>Support for afreecatv</change>
+        <version>0.0.12</version>
+        <change>Support for Tweetbot 4</change>
+        <version>0.0.11</version>
+        <change>Support for facebook videos</change>
+        <version>0.0.10</version>
+        <change>Updated to support 9.3.3</change>
+	</changes>
+</changelog>

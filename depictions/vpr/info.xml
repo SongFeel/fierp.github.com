@@ -1,0 +1,25 @@
+<package>
+	<id>com.edbdsoftware.videoplayerrotatable</id>
+	<name>Full Package</name>
+	<version>0.0.13</version>
+	<compatibility>
+		<firmware>
+			<miniOS>9.0.2</miniOS>
+            <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>mobilesubstrate</package>
+        <package>preferenceloader</package>
+        <package>applist</package>
+	</dependencies>
+	<descriptionlist>
+		<description>Disables rotation lock when the default video player starts playing and restores lock when it stops. You will need to re-launch any app you want to use this in after installation.</description>
+		<description></description>
+	</descriptionlist>
+	<screenshots>
+	</screenshots>
+	<changelog>
+        <change>0.0.13: Support for afreecatv</change>
+	</changelog>
+</package>
