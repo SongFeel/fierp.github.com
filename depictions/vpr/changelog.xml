@@ -1,4 +1,8 @@
 <changelog>
+    <changes>
+        <version>0.0.14</version>
+        <change>Support for gifv's in Narwal</change>
+    </changes>
 	<changes>
 		<version>0.0.13</version>
 		<change>Support for afreecatv</change>
