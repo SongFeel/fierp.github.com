@@ -1,5 +1,9 @@
 <changelog>
     <changes>
+        <version>0.0.15</version>
+        <change>Support for Twitter app</change>
+    </changes>
+    <changes>
         <version>0.0.14</version>
         <change>Support for gifv's in Narwal</change>
     </changes>
